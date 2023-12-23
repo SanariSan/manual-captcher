@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "removeComments": true,
+    "sourceMap": false
+  }
+}

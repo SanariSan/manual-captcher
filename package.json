@@ -1,0 +1,89 @@
+{
+  "name": "react-playground",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.10",
+    "@mui/x-data-grid": "^5.17.10",
+    "classnames": "^2.3.1",
+    "i18next": "^22.0.4",
+    "i18next-browser-languagedetector": "^7.0.0",
+    "nanoid": "^4.0.2",
+    "react": "^18.2.0",
+    "react-country-flag": "^3.1.0",
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.3.5",
+    "react-google-recaptcha": "^3.1.0",
+    "react-i18next": "^12.0.0",
+    "react-lazy-load-image-component": "^1.5.6",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.3.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-google-recaptcha": "^2.1.8",
+    "@types/react-lazy-load-image-component": "^1.5.2",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "customize-cra": "^1.0.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unicorn": "^38.0.0",
+    "events": "^3.3.0",
+    "path-browserify": "^1.0.1",
+    "prettier": "^2.7.1",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "sass": "^1.55.0",
+    "source-map-explorer": "^2.5.3",
+    "stream-browserify": "^3.0.0",
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "analyze": "react-app-rewired build; source-map-explorer 'build/static/js/*.js'",
+    "start": "react-app-rewired start",
+    "build": "GENERATE_SOURCEMAP=false react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "---style": "---------------------------------------------------------------",
+    "format:check": "./node_modules/prettier/bin-prettier.js -c --config ./.prettierrc ./src",
+    "format:write": "node ./node_modules/prettier/bin-prettier.js -w --config ./.prettierrc ./src",
+    "lint": "node ./node_modules/.bin/eslint --ext .ts,.tsx,.js,.jsx ./src",
+    "lint-quiet": "node ./node_modules/.bin/eslint --quiet --ext .ts,.tsx,.js,.jsx ./src",
+    "lint-fix": "node ./node_modules/.bin/eslint --fix --ext .ts,.tsx,.js,.jsx ./src"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+      @media (prefers-color-scheme: light) {
+        body {
+          background-color: #ffffff;
+        }
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #15141b;
+        }
+      }
+    </style>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Manual captcher" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Captcher</title>
+    <script>
+      var DEBUG = true;
+      if (!DEBUG) {
+        if (!window.console) window.console = {};
+        var methods = ["log", "debug", "warn", "info"];
+        for (var i = 0; i < methods.length; i++) {
+          console[methods[i]] = function () {};
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

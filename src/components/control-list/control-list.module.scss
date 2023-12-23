@@ -1,0 +1,10 @@
+.controlListWrap {
+  width: 100%;
+  height: calc(100% - 30px);
+
+  .controlList {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
