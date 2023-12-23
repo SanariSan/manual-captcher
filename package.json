@@ -63,6 +63,7 @@
     "build": "GENERATE_SOURCEMAP=false react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
+    "docker": "docker build -t manual-captcher -f ./Dockerfile . && docker run -p 3000:3000 manual-captcher",
     "---style": "---------------------------------------------------------------",
     "format:check": "./node_modules/prettier/bin-prettier.js -c --config ./.prettierrc ./src",
     "format:write": "node ./node_modules/prettier/bin-prettier.js -w --config ./.prettierrc ./src",
