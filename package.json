@@ -1,7 +1,7 @@
 {
-  "name": "react-playground",
-  "version": "0.1.0",
-  "private": true,
+  "name": "manual-captcher",
+  "version": "0.0.1",
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -23,6 +23,7 @@
     "react-toastify": "^9.1.1"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/classnames": "^2.3.1",
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
